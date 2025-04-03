@@ -28,7 +28,7 @@ function Header() {
 
             </div>
             <div className='flex-row'>
-                <input className='search-input' type="text" placeholder='search for something' />
+                <input className='search-input' type="text" id="search" placeholder='search for something' />
                 <div >
                     {
                         theme ? <FaMoon className='icon' onClick={changeTheme} /> : <CiLight className='icon' onClick={changeTheme} />
