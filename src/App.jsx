@@ -11,6 +11,7 @@ import { calculateBasket, setDrawer, removeFromBasket } from './redux/slices/bas
 import { getAllProducts } from './redux/slices/productSlice'; // ürünleri çekmek için
 
 import Slide from './components/Slide';
+import Footer from './components/Footer';
 
 function App() {
   const { products, drawer, totalAmount } = useSelector((store) => store.basket);
@@ -68,7 +69,9 @@ function App() {
             <p style={{ textAlign: 'center' }}>Total Amount : {totalAmount.toFixed(2)}₺</p>
           </div>
         </Drawer>
+
       </PageContainer>
+      <Footer />
     </div>
   );
 }
