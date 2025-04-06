@@ -1,13 +1,14 @@
 .image {
+    padding-top: 10px;
     width: 180px;
-    height: 240px;
+    height: 230px;
     margin: 0 auto;
     display: block;
 }
 
 .card {
     width: 250px;
-    height: 400px;
+    height: 450px;
     box-shadow: 1px 4px 3px lightgrey;
     border-radius: 10px;
     margin: 15px;
@@ -23,7 +24,9 @@
 
 .detail-button {
     border: none;
-    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 8px;
     border-radius: 5px;
     background-color: rgb(144, 142, 142);
     color: white;

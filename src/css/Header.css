@@ -4,11 +4,16 @@
 }
 
 .logo-text {
+    padding-top: 8px;
+    margin-top: 5px;
     font-family: serif;
     font-size: 18px;
     font-weight: 600;
     color: rgb(129, 109, 109);
+
 }
+
+
 
 .search-input {
     border: none;
@@ -19,8 +24,11 @@
 }
 
 .icon {
-    font-size: 20px;
-    margin-right: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 15px;
+    vertical-align: middle;
+
 }
 
 .icon:hover {
